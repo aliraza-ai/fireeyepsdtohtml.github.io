@@ -104,6 +104,93 @@ body
 }
 
 
-/* Comment */
+/* Why Choose Mandiant Solutions area  */
+.choose
+{
+    color: #012060;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    h1
+    {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+
+/* TESTIMONIAL */
+.test
+{
+    background-image: url("img/test.png");
+    background-position: center center;
+     background-size: 100% 100%;
+     color: white;
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 80px;
+
+}
+
+
+/* Ready to get started */
+
+.ready
+{
+    color: #012060;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-image: url("img/d.png");
+    background-position: center center;
+     background-size: 100% 100%;
+    h1
+    {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    input,textarea
+    {
+        background-color: #d5e3ff;
+      
+        border: none;
+    }
+    input::placeholder {
+        color: #012060;
+    }
+    textarea::placeholder {
+        color: #012060;
+    }
+
+}
+
+/* footer */
+.footer
+{
+    background-color: #111111;
+    color: white;
+    padding-top: 35px;
+    
+
+    li
+    {
+        list-style: none;
+        color: #8b8b8b;
+    }
+    h1
+    {
+        font-size: 18px;
+    }
+    footer
+    {
+        margin-top: 60px;
+        border-top: silver 1px solid;
+        background-color: #000000;
+        p
+        {
+           margin-top: 20px;
+           font-size: 15px;
+        }
+    }
+}
 
 
