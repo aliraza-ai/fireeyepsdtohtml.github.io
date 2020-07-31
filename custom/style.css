@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Barlow', sans-serif;
 }
@@ -176,6 +180,14 @@ body {
   background-color: #111111;
   color: white;
   padding-top: 35px;
+}
+
+.footer span {
+  background-color: #666666;
+  padding: 5px 10px;
+  color: #c6c6c6;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .footer li {
