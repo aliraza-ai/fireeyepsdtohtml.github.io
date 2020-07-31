@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+/* navbar */
+.nav {
+  background-color: black;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff !important;
+  padding: 0.3rem 1rem;
+  font-size: 15px !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand img {
+  width: 80%;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* header */
+.header {
+  background-image: url("img/top.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  color: white;
+}
+
+.header h4 {
+  font-size: 18px;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.header p {
+  font-size: 15px;
+}
+
+/* mandiant */
+.mandiant {
+  background-image: url("img/bg1.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #012060;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.mandiant h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.mandiant .p {
+  font-weight: 500;
+}
+
+.mandiant p {
+  font-size: 16px;
+  color: #012060;
+}
+
+.mandiant a {
+  color: #012060;
+  text-decoration: underline;
+}
+
+.mandiant .button {
+  color: #d34f55;
+  background-color: white;
+  width: 200px;
+  padding: 10px 5px;
+}
+
+/* Comment */
+/*# sourceMappingURL=style.css.map */
